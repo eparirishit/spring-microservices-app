@@ -1,8 +1,8 @@
 package org.codewithrishit;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.codewithrishit.dto.ProductRequest;
-import org.codewithrishit.repository.ProductRepository;
+import org.codewithrishit.productservice.dto.ProductRequest;
+import org.codewithrishit.productservice.repository.ProductRepository;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
